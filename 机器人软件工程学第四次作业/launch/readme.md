@@ -1,2 +1,0 @@
-此处为对话系统的launch文件
-只有一个chat.launch
