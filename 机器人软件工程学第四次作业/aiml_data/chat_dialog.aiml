@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0" encoding="UTF-8">
+
+<category>
+	<pattern>WHAT IS YOUR NAME</pattern>
+	<template>MY NAME IS JHON</template>
+</category>
+
+<category>
+	<pattern>HELLO</pattern>
+	<template>
+		<random>
+			<li>HELLO</li>
+			<li>HI</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>HI</pattern>
+	<template>
+		<random>
+			<li>HELLO</li>
+			<li>HI</li>
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>HOW ARE YOU</pattern>
+	<template>I AM FINE THANKS</template>
+</category>
+
+<category>
+	<pattern>WHAT CAN YOU DO</pattern>
+	<template>I CAN DO NOTHING</template>
+</category>
+
+<category>
+	<pattern>WHAT IS HISTORY</pattern>
+	<template>HISTORY IS HIS STORY</template>
+</category>
+
+<category>
+	<pattern>WHAT IS YOUR AGE</pattern>
+	<template>I AM TEN YEARS OLD</template>
+</category>
+
+<category>
+	<pattern>GO AWAY</pattern>
+	<template>OH NO PLEASE</template>
+</category>
+
+<category>
+	<pattern>GOODBYE</pattern>
+	<template>BYE</template>
+</category>
+
+</aiml>
+
+
