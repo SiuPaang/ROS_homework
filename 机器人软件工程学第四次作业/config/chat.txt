@@ -1,0 +1,22 @@
+hello
+hi
+how are you
+I am fine 
+thanks
+what is your name
+my name is jhon
+what can you do 
+i can do nothing
+go away
+oh no please
+can you help me
+no,i can do nothing
+what is history
+history is his story
+what is your age
+i am ten years old
+thank you 
+goodbye
+bye
+
+
