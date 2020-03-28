@@ -1,0 +1,65 @@
+Language model created by QuickLM on Sat Mar 28 06:20:28 EDT 2020
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 4 sentences and 13 words
+
+\data\
+ngram 1=13
+ngram 2=16
+ngram 3=13
+
+\1-grams:
+-1.0212 </s> -0.3010
+-1.0212 <s> -0.2341
+-1.6232 ARE -0.2906
+-1.6232 CHEESE -0.2576
+-1.6232 FOR -0.2688
+-1.6232 HAVE -0.2906
+-1.6232 I -0.2906
+-1.6232 ONE -0.2906
+-1.6232 PICTURE -0.2906
+-1.6232 TAKEN -0.2906
+-1.6232 THANK -0.2688
+-1.6232 WELCOME -0.2576
+-1.1461 YOU -0.2460
+
+\2-grams:
+-0.9031 <s> CHEESE 0.0000
+-0.9031 <s> I 0.0000
+-0.9031 <s> THANK 0.0000
+-0.9031 <s> YOU -0.2218
+-0.3010 ARE WELCOME 0.0000
+-0.3010 CHEESE </s> -0.3010
+-0.3010 FOR YOU -0.1249
+-0.3010 HAVE TAKEN 0.0000
+-0.3010 I HAVE 0.0000
+-0.3010 ONE PICTURE 0.0000
+-0.3010 PICTURE FOR 0.0000
+-0.3010 TAKEN ONE 0.0000
+-0.3010 THANK YOU -0.1249
+-0.3010 WELCOME </s> -0.3010
+-0.4771 YOU </s> -0.3010
+-0.7782 YOU ARE 0.0000
+
+\3-grams:
+-0.3010 <s> CHEESE </s>
+-0.3010 <s> I HAVE
+-0.3010 <s> THANK YOU
+-0.3010 <s> YOU ARE
+-0.3010 ARE WELCOME </s>
+-0.3010 FOR YOU </s>
+-0.3010 HAVE TAKEN ONE
+-0.3010 I HAVE TAKEN
+-0.3010 ONE PICTURE FOR
+-0.3010 PICTURE FOR YOU
+-0.3010 TAKEN ONE PICTURE
+-0.3010 THANK YOU </s>
+-0.3010 YOU ARE WELCOME
+
+\end\
