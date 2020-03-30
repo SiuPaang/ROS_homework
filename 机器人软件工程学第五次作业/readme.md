@@ -10,8 +10,7 @@ usb_cam-test.launch打开电脑摄像头，voice_control_picture.launch先后打
 - picture_talkbacker.py，订阅“/success_signal”，然后将其消息发送给soundplay_node转换为语音
 - soundplay_node.py
 
------------------------------------
-voice_control_picture_rqt_graph.png 是该工作运行时全部节点与话题的相互关系
+##### voice_control_picture_rqt_graph.png 是该工作运行时全部节点与话题的相互关系
 
 ## 视频暂未录制，第二个工作
 运行usb_cam-test.launch以及该功能包中的face_detector.launch两个文件
