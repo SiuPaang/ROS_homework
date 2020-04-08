@@ -11,7 +11,7 @@ usb_cam-test.launch打开电脑摄像头，voice_control_picture.launch先后打
 - soundplay_node.py
 #### voice_control_picture_rqt_graph.png 是该工作运行时全部节点与话题的相互关系
 
-## 视频暂未录制，第二个工作
+## face_detect.mp4 展示的是第二个工作
 运行usb_cam-test.launch以及该功能包中的face_detector.launch两个文件
 
 face_detector.launch先后打开下面一些节点
@@ -20,3 +20,5 @@ face_detector.launch先后打开下面一些节点
 - face_number_teller.py，订阅"faces_number"话题，检测连续十张图像检测到的人脸数是否相同，再由soundplay节点语音输出
 - soundplay_node.py
 #### face_detector.png 是该工作运行时全部节点与话题的相互关系
+
+
