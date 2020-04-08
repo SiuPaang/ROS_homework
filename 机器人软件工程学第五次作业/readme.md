@@ -21,7 +21,8 @@ face_detector.launch先后打开下面一些节点
 - soundplay_node.py
 #### face_detector.png 是该工作运行时全部节点与话题的相互关系
 
-# English Version
+----------------------------------------------------
+----------------------------------------------------
 # some works relevant to ros speech and vision
 ------------------------------
 ## voice_control_picture.mp4 shows the first work
