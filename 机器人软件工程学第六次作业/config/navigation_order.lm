@@ -1,0 +1,54 @@
+Language model created by QuickLM on Thu Apr 16 07:36:45 EDT 2020
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 3 sentences and 10 words
+
+\data\
+ngram 1=10
+ngram 2=11
+ngram 3=10
+
+\1-grams:
+-1.1249 </s> -0.3010
+-1.1249 <s> -0.2672
+-1.6021 BARRIER -0.2672
+-1.6021 BLACK -0.2900
+-1.6021 BOOKSHELF -0.2672
+-1.6021 CUBE -0.2672
+-1.1249 GO -0.2672
+-1.1249 THE -0.2672
+-1.1249 TO -0.2672
+-1.6021 WHITE -0.2900
+
+\2-grams:
+-0.3010 <s> GO 0.0000
+-0.3010 BARRIER </s> -0.3010
+-0.3010 BLACK BARRIER 0.0000
+-0.3010 BOOKSHELF </s> -0.3010
+-0.3010 CUBE </s> -0.3010
+-0.3010 GO TO 0.0000
+-0.7782 THE BLACK 0.0000
+-0.7782 THE BOOKSHELF 0.0000
+-0.7782 THE WHITE 0.0000
+-0.3010 TO THE 0.0000
+-0.3010 WHITE CUBE 0.0000
+
+\3-grams:
+-0.3010 <s> GO TO
+-0.3010 BLACK BARRIER </s>
+-0.3010 GO TO THE
+-0.3010 THE BLACK BARRIER
+-0.3010 THE BOOKSHELF </s>
+-0.3010 THE WHITE CUBE
+-0.7782 TO THE BLACK
+-0.7782 TO THE BOOKSHELF
+-0.7782 TO THE WHITE
+-0.3010 WHITE CUBE </s>
+
+\end\
