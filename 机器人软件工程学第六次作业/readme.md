@@ -2,9 +2,13 @@
 - 在机器人上添加了一个hobuyo激光雷达用作建图以及导航
 
 $ roslaunch turtlebot_gazebo turtlebot_world.launch
+
 $ roslaunch turtlebot_gazebo amcl_demo.launch
+
 $ roslaunch turtlebot_rviz_launchers view_navigation.launch
+
 $ roslaunch robot_navigation say.launch
+
 $ rosrun robot_navigation navigation.py
 
 - robot_navigation为本功能包名字
