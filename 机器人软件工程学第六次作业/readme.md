@@ -6,6 +6,7 @@
 - 运行时地图存放在主文件夹
 - 主要是利用chat_data这个语音识别出来的话题，对turtlebot进行控制
 
+- barrier指的是那个黑色长条，cube指的是白色正方体，bookshelf指的是橙黄色书架
 
 $ roslaunch turtlebot_gazebo turtlebot_world.launch
 
